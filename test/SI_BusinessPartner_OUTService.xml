@@ -1,5 +1,5 @@
-OP:CreateProfileCompletion
-Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+<CreateProfileCompletion>
+<Request><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_CreateProfileCompletionRequest>
@@ -138,8 +138,8 @@ Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelop
          </BPInformation>
       </bus:MT_CreateProfileCompletionRequest>
    </soapenv:Body>
-</soapenv:Envelope>
-Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Request>
+<Response><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_MessageStatusResponse>
@@ -273,9 +273,9 @@ Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelo
          </MessageStatusInfo>
       </bus:MT_MessageStatusResponse>
    </soapenv:Body>
-</soapenv:Envelope>
-OP:CreateProfileLookup
-Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Response></CreateProfileCompletion>
+<CreateProfileLookup>
+<Request><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_CreateProfileLookupRequest>
@@ -424,8 +424,8 @@ Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelop
          </BPInformation>
       </bus:MT_CreateProfileLookupRequest>
    </soapenv:Body>
-</soapenv:Envelope>
-Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Request>
+<Response><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_CreateProfileLookupResponse>
@@ -580,9 +580,9 @@ Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelo
          </BPProfileInfo>
       </bus:MT_CreateProfileLookupResponse>
    </soapenv:Body>
-</soapenv:Envelope>
-OP:GetBPNo
-Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Response></CreateProfileLookup>
+<GetBPNo>
+<Request><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_GetBPNoRequest>
@@ -721,8 +721,8 @@ Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelop
          </BPInformation>
       </bus:MT_GetBPNoRequest>
    </soapenv:Body>
-</soapenv:Envelope>
-Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Request>
+<Response><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_GetBPNoResponse>
@@ -860,9 +860,9 @@ Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelo
          </BPProfileInfo>
       </bus:MT_GetBPNoResponse>
    </soapenv:Body>
-</soapenv:Envelope>
-OP:GetBPProfileDetail
-Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Response></GetBPNo>
+<GetBPProfileDetail>
+<Request><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_GetBPProfileDetailRequest>
@@ -994,8 +994,8 @@ Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelop
          </BPInformation>
       </bus:MT_GetBPProfileDetailRequest>
    </soapenv:Body>
-</soapenv:Envelope>
-Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Request>
+<Response><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_GetBPProfileDetailResponse>
@@ -1175,9 +1175,9 @@ Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelo
          </BPProfileDetails>
       </bus:MT_GetBPProfileDetailResponse>
    </soapenv:Body>
-</soapenv:Envelope>
-OP:GetUserValidity
-Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Response></GetBPProfileDetail>
+<GetUserValidity>
+<Request><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_GetUserValidityRequest>
@@ -1320,8 +1320,8 @@ Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelop
          </BPInformation>
       </bus:MT_GetUserValidityRequest>
    </soapenv:Body>
-</soapenv:Envelope>
-Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Request>
+<Response><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_MessageStatusResponse>
@@ -1455,9 +1455,9 @@ Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelo
          </MessageStatusInfo>
       </bus:MT_MessageStatusResponse>
    </soapenv:Body>
-</soapenv:Envelope>
-OP:RemindMe
-Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Response></GetUserValidity>
+<RemindMe>
+<Request><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_RemindMeRequest>
@@ -1590,8 +1590,8 @@ Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelop
          </BPInformation>
       </bus:MT_RemindMeRequest>
    </soapenv:Body>
-</soapenv:Envelope>
-Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Request>
+<Response><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_RemindMeResponse>
@@ -1730,9 +1730,9 @@ Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelo
          </BPProfileInfo>
       </bus:MT_RemindMeResponse>
    </soapenv:Body>
-</soapenv:Envelope>
-OP:UpdateBPBDay
-Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Response></RemindMe>
+<UpdateBPBDay>
+<Request><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_UpdateBPBDayRequest>
@@ -1873,8 +1873,8 @@ Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelop
          </BPInformation>
       </bus:MT_UpdateBPBDayRequest>
    </soapenv:Body>
-</soapenv:Envelope>
-Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Request>
+<Response><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_MessageStatusResponse>
@@ -2008,9 +2008,9 @@ Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelo
          </MessageStatusInfo>
       </bus:MT_MessageStatusResponse>
    </soapenv:Body>
-</soapenv:Envelope>
-OP:UpdateBPMailingOption
-Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Response></UpdateBPBDay>
+<UpdateBPMailingOption>
+<Request><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_UpdateBPMailingOptionRequest>
@@ -2149,8 +2149,8 @@ Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelop
          </CAMailingOption>
       </bus:MT_UpdateBPMailingOptionRequest>
    </soapenv:Body>
-</soapenv:Envelope>
-Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Request>
+<Response><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_MessageStatusResponse>
@@ -2284,9 +2284,9 @@ Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelo
          </MessageStatusInfo>
       </bus:MT_MessageStatusResponse>
    </soapenv:Body>
-</soapenv:Envelope>
-OP:UpdatePrimaryContact
-Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Response></UpdateBPMailingOption>
+<UpdatePrimaryContact>
+<Request><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_UpdateBPPrimaryContactRequest>
@@ -2443,8 +2443,8 @@ Request:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelop
          </BPInformation>
       </bus:MT_UpdateBPPrimaryContactRequest>
    </soapenv:Body>
-</soapenv:Envelope>
-Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
+</soapenv:Envelope></Request>
+<Response><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bus="http://ce.corp.com/xi/eServices/BusinessPartner">
    <soapenv:Header/>
    <soapenv:Body>
       <bus:MT_MessageStatusResponse>
@@ -2578,4 +2578,4 @@ Response:<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelo
          </MessageStatusInfo>
       </bus:MT_MessageStatusResponse>
    </soapenv:Body>
-</soapenv:Envelope>
+</soapenv:Envelope></Response></UpdatePrimaryContact>
