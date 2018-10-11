@@ -1,0 +1,17 @@
+Web service, SOAPACTION, OPERATION, NAMESPACE URI
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, GetContractAccountList, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, GetContractAccountAutopayEligibility, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, GetContractAccountContact, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, ValidateUserInfo, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, UpdatePersonalizationFlags, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, AccountLookup, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, GetContractAccountDetail, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, GetCAListByOrderStatus, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, GetContractAccountList, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, GetContractAccountAutopayEligibility, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, GetContractAccountContact, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, ValidateUserInfo, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, UpdatePersonalizationFlags, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, AccountLookup, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, GetContractAccountDetail, http://schemas.xmlsoap.org/wsdl/soap/
+SI_ContractAccount_OUTService, http://sap.com/xi/WebService/soap1.1, GetCAListByOrderStatus, http://schemas.xmlsoap.org/wsdl/soap/
