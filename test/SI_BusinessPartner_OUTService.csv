@@ -1,9 +1,0 @@
-Web service, SOAPACTION, OPERATION, NAMESPACE URISI_BusinessPartner_OUTService, http://sap.com/xi/WebService/soap1.1, GetBPNo, http://schemas.xmlsoap.org/wsdl/soap/
-SI_BusinessPartner_OUTService, http://sap.com/xi/WebService/soap1.1, CreateProfileLookup, http://schemas.xmlsoap.org/wsdl/soap/
-SI_BusinessPartner_OUTService, http://sap.com/xi/WebService/soap1.1, CreateProfileCompletion, http://schemas.xmlsoap.org/wsdl/soap/
-SI_BusinessPartner_OUTService, http://sap.com/xi/WebService/soap1.1, GetBPProfileDetail, http://schemas.xmlsoap.org/wsdl/soap/
-SI_BusinessPartner_OUTService, http://sap.com/xi/WebService/soap1.1, GetUserValidity, http://schemas.xmlsoap.org/wsdl/soap/
-SI_BusinessPartner_OUTService, http://sap.com/xi/WebService/soap1.1, RemindMe, http://schemas.xmlsoap.org/wsdl/soap/
-SI_BusinessPartner_OUTService, http://sap.com/xi/WebService/soap1.1, UpdateBPBDay, http://schemas.xmlsoap.org/wsdl/soap/
-SI_BusinessPartner_OUTService, http://sap.com/xi/WebService/soap1.1, UpdatePrimaryContact, http://schemas.xmlsoap.org/wsdl/soap/
-SI_BusinessPartner_OUTService, http://sap.com/xi/WebService/soap1.1, UpdateBPMailingOption, http://schemas.xmlsoap.org/wsdl/soap/
