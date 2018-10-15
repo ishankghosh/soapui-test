@@ -1,0 +1,28 @@
+2018-10-16 00:13:05,511 WARN  [SoapUI] Missing folder [C:\Users\Ishan\freelance_JOBS\SoapAPiTest\ext] for external libraries
+2018-10-16 00:13:05,776 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Ishan\soapui-settings.xml]
+2018-10-16 00:13:06,231 INFO  [PluginManager] 0 plugins loaded in 15 ms
+2018-10-16 00:13:06,231 INFO  [DefaultSoapUICore] All plugins loaded
+2018-10-16 00:13:06,748 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Ishan/Desktop/JArs/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2018-10-16 00:13:06,779 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Ishan/Desktop/JArs/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2018-10-16 00:13:06,779 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Ishan/Desktop/JArs/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2018-10-16 00:13:06,807 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Ishan/Desktop/JArs/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2018-10-16 00:13:06,808 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Ishan/Desktop/JArs/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2018-10-16 00:13:06,810 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Ishan/Desktop/JArs/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2018-10-16 00:13:06,812 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Ishan/Desktop/JArs/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2018-10-16 00:13:06,815 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Ishan/Desktop/JArs/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2018-10-16 00:13:06,815 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Ishan/Desktop/JArs/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2018-10-16 00:13:06,815 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Ishan/Desktop/JArs/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2018-10-16 00:13:08,056 INFO  [SchemaUtils] Loading schema types from [https://raw.githubusercontent.com/ishankghosh/soapui-test/master/redetails/SI_ContractAccount_OUTService.wsdl]
+2018-10-16 00:13:08,056 INFO  [SchemaUtils] Getting schema https://raw.githubusercontent.com/ishankghosh/soapui-test/master/redetails/SI_ContractAccount_OUTService.wsdl
+2018-10-16 00:13:08,368 INFO  [WsdlImporter] Finding importer for {http://ce.corp.com/xi/eServices/ContractAccount}SI_ContractAccount_OUTBinding
+2018-10-16 00:13:08,368 INFO  [WsdlImporter] Importing binding {http://ce.corp.com/xi/eServices/ContractAccount}SI_ContractAccount_OUTBinding
+2018-10-16 00:13:08,400 INFO  [Soap11HttpBindingImporter] importing endpoint https://cvmlnx0057.ce.corp.com:50101/XISOAPAdapter/MessageServlet?senderParty=&senderService=CUSTPORTALD2&receiverParty=&receiverService=&interface=SI_ContractAccount_OUT&interfaceNamespace=http://ce.corp.com/xi/eServices/ContractAccount
+2018-10-16 00:13:08,400 INFO  [Soap11HttpBindingImporter] importing endpoint http://cvmlnx0057.ce.corp.com:50100/XISOAPAdapter/MessageServlet?senderParty=&senderService=CUSTPORTALD2&receiverParty=&receiverService=&interface=SI_ContractAccount_OUT&interfaceNamespace=http://ce.corp.com/xi/eServices/ContractAccount
+2018-10-16 00:13:08,431 INFO  [Soap11HttpBindingImporter] importing operation AccountLookup
+2018-10-16 00:13:08,458 INFO  [Soap11HttpBindingImporter] importing operation GetCAListByOrderStatus
+2018-10-16 00:13:08,458 INFO  [Soap11HttpBindingImporter] importing operation GetContractAccountAutopayEligibility
+2018-10-16 00:13:08,458 INFO  [Soap11HttpBindingImporter] importing operation GetContractAccountContact
+2018-10-16 00:13:08,458 INFO  [Soap11HttpBindingImporter] importing operation GetContractAccountDetail
+2018-10-16 00:13:08,458 INFO  [Soap11HttpBindingImporter] importing operation GetContractAccountList
+2018-10-16 00:13:08,458 INFO  [Soap11HttpBindingImporter] importing operation UpdatePersonalizationFlags
+2018-10-16 00:13:08,458 INFO  [Soap11HttpBindingImporter] importing operation ValidateUserInfo
